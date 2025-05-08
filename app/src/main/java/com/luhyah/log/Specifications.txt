@@ -1,0 +1,15 @@
+There are three main aspects of the app - TimeCapsule, Diary and Drafts(either)
+Data can only be gotten from two sources - The backend and local store.
+The backend and local store should sync whenever there is internet.
+Time capsules can't be deleted until reveal date.
+Deletion can only occur if there is internet connection
+The thumbnail for IMG and VID should come from server.
+If new entry is created without internet, it should have an icon label to show that it hasn't been uploaded.
+Drafts are local only
+Major composables -
+    1. HomePage - contains list of all Time Capsules and Diary, Welcome text and More Menu(Drafts, Login/LogOut, User Settings)
+    2. Draft Page - contains all drafts (time capsule or diary)
+    3. WYSIWYG - contains all things writing related
+    4. CamX - contains all thing camera
+    5. Auth - contains login and logout screen
+    6. Setting - contains all user settings
